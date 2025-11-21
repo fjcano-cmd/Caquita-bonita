@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Classifieds</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex justify-between items-center">
+            <a href="#" class="logo">LuxeList</a>
+                <nav class="flex items-center gap-4">
+                    <a href="#" class="nav-link">Browse</a>
+                    <a href="#" class="nav-link">Categories</a>
+                    <a href="#" class="nav-link">Saved</a>
+                    <button class="btn btn-primary">Post Ad</button>
+                </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Discover Extraordinary Items</h1>
+            <p>The premium marketplace for curated goods. Buy and sell with confidence.</p>
+
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="What are you looking for?">
+                <button class="btn btn-primary" style="margin: 0.25rem;">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Categories -->
+        <div class="categories" id="category-filters">
+            <!-- Injected by JS -->
+        </div>
+
+        <!-- Ads Grid -->
+        <div class="grid grid-cols-3" id="ads-grid">
+            <!-- Injected by JS -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 LuxeList Classifieds. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
